@@ -1,10 +1,9 @@
 <template>
-
-    <div class="h-full w-full rounded flex flex-col items-center justify-center">
+  <div class="h-full w-full rounded flex flex-col items-center justify-center">
       <div class="flex justify-center mb-3">
-        <p>SIGN UP</p>
+          <img src="@/assets/signuppp.gif" class="h-20 w-40 rounded" />
       </div>
-      <div class="h-2/3 w-2/3 rounded border border-lightgrey">
+      <div class="h-auto w-2/3 p-3 rounded border border-lightgrey">
         <div class="py-2 px-4">
           <label>User Name :</label>
           <input class="inputboxstyling mt-2" v-model="addUser.name"/>
@@ -22,6 +21,7 @@
         </div>
       </div>
     </div>
+    
 
 </template>
 <style scoped>
