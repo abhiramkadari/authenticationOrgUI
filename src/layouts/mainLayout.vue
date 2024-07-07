@@ -1,6 +1,6 @@
 <template>
     <div class="totalBody">
-        <div class="flex items-center justify-center text-white h-12 bg-primary"><p>ASIAN LABS</p></div>
+        <div class="flex items-center justify-center text-white h-12 bg-primary"><img src="@/assets/asianLabLogo.png" class="logo mr-2"/><p class="text-lg font-semibold">ASIAN LABS</p></div>
         <div class="downBody">
             <div class="sideNav">
                 <!-- <p @click="changeRoute('login')" class="comps h-1">LOGIN</p>
@@ -17,10 +17,10 @@
 </template>
 <style scoped>
 
-/* .comps:hover{
-    background-color: white;
-    color: black;
-} */
+.logo{
+    height: 35px;
+    width: 50px;
+}
 .totalBody{
     height: 100vh;
     width: 100%;
@@ -50,11 +50,11 @@ import { defineComponent } from 'vue';
             selectedPageIndex:0,
             pages:[
                 {
-                    pageName:'login',
+                    pageName:'signUpPage',
                     pageDisplayName:'SIGN UP'
                 },
                 {
-                    pageName:'authCheck',
+                    pageName:'loginPage',
                     pageDisplayName:'LOGIN'
                 }
             ]

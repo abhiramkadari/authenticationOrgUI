@@ -14,8 +14,8 @@ const routes: Array<RouteRecordRaw> = [
     },
   },
   {
-    path: '/user/add',
-    name: 'login',
+    path: '/user/register',
+    name: 'signUpPage',
     component: LoginForm,
     meta: {
         title: "LoginForm",
@@ -23,8 +23,8 @@ const routes: Array<RouteRecordRaw> = [
     },
   },
   {
-    path: '/authCheck',
-    name: 'authCheck',
+    path: '/user/login',
+    name: 'loginPage',
     component: Auth,
     meta: {
         title: "Auth",
